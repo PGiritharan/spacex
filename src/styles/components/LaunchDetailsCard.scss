@@ -1,0 +1,38 @@
+.launch-details{
+    // width: 80%;
+    padding: 12px;
+    background-color: white;
+    font-size: $s-size;
+    .patch{
+        width: 100%;
+        min-height: 45%;
+        .img{
+            width: 100%;
+            background-color: silver;
+        }
+    }
+    .launch-heading{
+        color: blue;
+        font-weight: bold;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .mission-id{
+        .heading{
+            font-weight: bold;
+        }
+    }
+    .launch-year, .launch-success, .landing-success{
+        display: grid;
+        grid-gap: 1% 1%;
+        grid-template-columns: 50% 50%;
+        .heading{
+            font-weight: bold;
+            display: inline;
+        }
+        .content{
+            display: inline;
+        }
+    }
+}

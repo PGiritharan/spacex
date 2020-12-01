@@ -1,0 +1,21 @@
+.filter-card{
+    background-color: $card-background;
+    padding-top: 0.87rem;
+    padding-bottom: 0.87rem;
+    .filter-heading{
+        text-align: center;
+        color: $secondary-color;
+        border-bottom: 1px solid $secondary-color;
+        margin: 1rem;
+        font-size: $s-size;
+    }
+    .btn-group-vertical{
+        display: block;
+        margin-right: 10px;
+        margin-left: 10px;
+        .btn{
+            margin: 0.2rem;
+            border-radius: 0;
+        }
+    }
+}

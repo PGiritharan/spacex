@@ -1,0 +1,24 @@
+.home-grid{
+    display: grid;
+    grid-gap: 1% 1%;
+    grid-template-columns: 25% 75%;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px){
+    .home-grid{
+        display: grid;
+        grid-gap: 0.12% 1%;
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 701px){
+    .home-grid{
+        display: grid;
+        grid-gap: 1% 1%;
+        grid-template-columns: 25% 75%;
+        width: 100%;
+    }
+}

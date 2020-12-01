@@ -1,0 +1,9 @@
+@import '~normalize.css/normalize.css';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './base/settings';
+@import './base/base';
+
+@import './components/Filters.scss';
+@import './components/HomePage.scss';
+@import './components//LaunchDetails.scss';
+@import './components/LaunchDetailsCard.scss';
